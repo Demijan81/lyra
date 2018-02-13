@@ -1,4 +1,5 @@
 ---
+- hosts: winmachine
 # Find files in path
 - win_find:
     paths: D:\temp
