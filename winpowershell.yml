@@ -1,6 +1,7 @@
 ---
 - name: run a powershell script
-  hosts: all
+ # hosts: all
+  hosts: windows
   gather_facts: false
   tasks:
     - name: run a powershell script
