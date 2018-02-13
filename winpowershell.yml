@@ -1,3 +1,4 @@
+---
 - name: test raw module
   hosts: all
   tasks:
