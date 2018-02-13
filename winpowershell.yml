@@ -1,5 +1,5 @@
 ---
-- name: test raw module
+- name: run a powershell script
   hosts: all
   gather_facts: false
   tasks:
