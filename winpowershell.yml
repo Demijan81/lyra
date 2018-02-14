@@ -1,6 +1,7 @@
 ---
 - name: run a powershell script
  # hosts: all
+  ansible_become: false
   hosts: winmachine
   gather_facts: false
   tasks:
